@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import NavBar from "./components/Navbar";
+import Features from './components/Features.jsx'
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <About />
+      <Features />
     </main>
   ) 
 }
